@@ -1,5 +1,6 @@
 import React from 'react';
 import ThemeChange from './ThemeChange/ThemeChange';
+import { styled } from './Header.module.scss';
 
 const Header = () => {
     return (

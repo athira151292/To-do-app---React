@@ -1,9 +1,10 @@
 import React from "react";
+import styled from './AddTask.module.scss';
 
 const AddTask = () => {
     return (
-        <div className="add-task">
-            <input type="text" />
+        <div className={styled.addTask}>
+            <input type="text" placeholder="Enter your task" />
             <button>Add</button>
         </div>
     );

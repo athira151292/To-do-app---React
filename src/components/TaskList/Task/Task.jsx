@@ -1,11 +1,12 @@
 import React from "react";
+import { DeleteOutlined, EditOutlined } from '@mui/icons-material';
 
 const Task = () => {
     return (
         <div className="task">
             <p></p>
-            <img src="" alt="Delete icon" />
-            <img src="" alt="Edit icon" />
+            <button><DeleteOutlined /></button>
+            <button><EditOutlined /></button>
         </div>
     )
 }
